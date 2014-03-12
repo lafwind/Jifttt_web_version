@@ -48,22 +48,18 @@
     </div>
 
     <div class="row marketing">
-        <div class="col-lg-6">
-            <h4>Cool Web Apps:</h4>
-            <p>JIFTTT is a service that lets you create powerful connections with one simple statement:</p>
-            <p><b>IF THIS THEN THAT!</b></p>
-            <p>So enjoy it~~</p>
 
-        </div>
+        <div class="col-lg-6 col-lg-offset-3">
 
-        <div class="col-lg-6">
-            <h4>You know: </h4>
-            <ul>
-                <li> DON'T BE THE SAME, BE BETTER!!!</li>
-                <li> TALK IS CHEAP, SHOW ME THE CODE!!!</li>
-                <li> KEEP CALM AND GEEK ON!!!</li>
-            </ul>
-
+        <form class="form-signin" role="form">
+            <h2 class="form-signin-heading">Sign in</h2>
+            <input type="text" class="form-control" placeholder="Email address" required autofocus>
+            <input type="password" class="form-control" placeholder="Password" required>
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
         </div>
 
     </div>
